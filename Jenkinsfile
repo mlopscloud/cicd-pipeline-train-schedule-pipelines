@@ -13,10 +13,6 @@ pipeline {
         echo 'Running Test automation'
       }
     }
-    stage ('Deploy') {
-      steps {
-        echo 'Deplyment My Web APP'
-      }
-    }
+    
   }
 }
