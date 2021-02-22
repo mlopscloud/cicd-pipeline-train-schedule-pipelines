@@ -13,6 +13,10 @@ pipeline {
         echo 'Running Test automation'
       }
     }
-    
+     stage ('Deploy') {
+      steps {
+        echo 'Running Deploy automation'
+      }
+    }
   }
 }
